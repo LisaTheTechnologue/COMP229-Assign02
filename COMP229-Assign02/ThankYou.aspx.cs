@@ -11,6 +11,17 @@ namespace COMP229_Assign02
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            lblEmail.Text     = Session["Email"].ToString();
+            lblBirthday.Text  = Session["Birthday"].ToString();
+            lblPassword.Text  = Session["Password"].ToString();
+            lblRecommend.Text = Session["Recommend"].ToString();
+            lblHeard.Text    = Session["HeardChoice"].ToString();
+            lblReason.Text     = Session["Reason"].ToString();
+            lblNote.Text =      Session["Note"].ToString();
+
+
+
+
 
         }
     }

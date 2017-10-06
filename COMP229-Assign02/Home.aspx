@@ -1,15 +1,42 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="COMP229_Assign02.Home" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <!--a.	identify the brand.
-b.	provide a link to the survey page.
-c.	explain what the survey is about. 
-d.	include appropriate disclaimers and privacy statements (you may link to an external site’s disclaimer, like Microsoft or Amazon). Hyperlink controls
-e.	load by default when your site is run in Visual Studio.
--->
-
+<asp:Content ContentPlaceHolderID="SpecialEdition" runat="server">
+</asp:Content>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div id="hero" class="jumbotron jumbotron-fluid">
-        <p><a href="~/Survey.aspx" class="btn btn-primary btn-lg">Feedback! </a></p>
+        
+        
+            <h1 class="title">AW</h1>
+            <h3 class="subtile">Asian Wave</h3>
+            <p class="lead">
+                How did we do? Give us some suggestion!
+        <a href="~/Survey.aspx" class="btn btn-primary btn-lg">Feedback! </a>
+            </p>
+       
     </div>
 
+    <div id="content">
+        <p>
+            Thank you for shopping at AW - Asian Wave, the music wave from Asian!
+        </p>
+        <p>
+            Our store is established in the beginning of this year - 2017; therefore, we try our best to improve 
+            the service system. We care about YOU, and YOUR SHOPPING EXPERIENCE!
+        </p>
+        <ul>
+            <li>Getting annoyed by the shopping questions?</li>
+            <li>Can't figure out what the deals are today?</li>
+            <li>Some functions do not working right?</li>
+            <li>You suggest an user interaction's idea</li>
+            <li>Or just want to support us?</li>
+        </ul>
+        <p>
+            Let us know! Take the survey for 5 minutes only!
+        </p>
+    </div>
+
+    <div id="privacy">
+        <p>We are using the Amazon Delivery System. Please understand the Disclaimer rules before taking the survey.</p>
+        <p><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496" class="btn btn-warning btn-lg">Disclaimer!</a></p>
+    </div>
 </asp:Content>

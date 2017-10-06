@@ -127,6 +127,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Asset\headset.jpg" />
+    <Content Include="Asset\music.jpg" />
+    <Content Include="Asset\musicFinal.jpg" />
     <Content Include="Asset\musicshop.jpg" />
     <Content Include="Asset\personalLogo.ico" />
     <Content Include="Asset\screenlap1.jpg" />
@@ -160,6 +163,7 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="sample.snippet" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />

@@ -14,15 +14,6 @@ namespace COMP229_Assign02
 
         }
 
-        protected void Submit_Click(object sender, EventArgs e)
-        {
-            if (Page.IsValid)
-            {
-
-            } else
-            {
-
-            }
-        }
+        
     }
 }

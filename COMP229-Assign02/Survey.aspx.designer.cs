@@ -13,22 +13,103 @@ namespace COMP229_Assign02 {
     public partial class Survey {
         
         /// <summary>
-        /// UsernameTxtBox control.
+        /// EmailTxtBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UsernameTxtBox;
+        protected global::System.Web.UI.WebControls.TextBox EmailTxtBox;
         
         /// <summary>
-        /// UsernameTxtBox_RequiredFieldValidator control.
+        /// RequiredEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator UsernameTxtBox_RequiredFieldValidator;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredEmail;
+        
+        /// <summary>
+        /// PasswordTxtBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox PasswordTxtBox;
+        
+        /// <summary>
+        /// RequiredPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredPassword;
+        
+        /// <summary>
+        /// BirthdayTxtBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox BirthdayTxtBox;
+        
+        /// <summary>
+        /// RequiredBirthday control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredBirthday;
+        
+        /// <summary>
+        /// RecommendDropList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList RecommendDropList;
+        
+        /// <summary>
+        /// HeardBtnList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList HeardBtnList;
+        
+        /// <summary>
+        /// ReasonCheckList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList ReasonCheckList;
+        
+        /// <summary>
+        /// ReqReason control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator ReqReason;
+        
+        /// <summary>
+        /// Note control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Note;
         
         /// <summary>
         /// Submit control.

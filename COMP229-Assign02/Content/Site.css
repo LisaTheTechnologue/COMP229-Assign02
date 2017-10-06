@@ -2,7 +2,7 @@
 body {
     padding-top: 50px;
     /* The image used */
-    background-image: url('../../Asset/headset.jpg'); /*Pixabay*/
+    background-image: url('../../Asset/musicHeadset.jpg'); /*Pixabay*/
     /* Set a specific height */
     height: 100%;
     /* Create the parallax scrolling effect */
@@ -11,21 +11,26 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 150%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: rgba(255,255,255,0.9);
+  
+    
 }
 
 /*Navbar fx and collapse Bootstrap*/
 .navbar {
     height: 50px;
 }
+
 #logo {
-    display:inline-block;
+    display: inline-block;
 }
 
 body > .container, .body-content {
@@ -51,7 +56,6 @@ body > .container, .body-content {
 /*Home page*/
 #hero {
     background-image: url('../Asset/musicFinal.jpg');
-    
     /* Set a specific height */
     height: 360px;
     /* Create the parallax scrolling effect */
@@ -59,40 +63,47 @@ body > .container, .body-content {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    color: white;
 }
-
-/*#title-text {
-    background: rgba(255, 255, 255, 0.35);
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    top: 10px;
-    left: 0;
-    position: fixed;
-    margin-left: 20px;
-    margin-right: 20px;
-    right: 0;
-    z-index: 2;
-    padding: 0 10px;
-}*/
 
 #title-text > .title {
     font-family: 'Lobster Two', cursive;
-    color:burlywood;
+    color: black;
 }
 
 #title-text > .subtitle {
     font-family: 'Righteous', cursive;
-    color:azure;
+    color: black;
 }
 
 #title-text > .lead {
-    color: azure;
+    color: black;
+}
+
+#content {
+    font-family: 'Nunito', sans-serif;
 }
 
 /*Survey*/
 .allPage {
     font-family: 'Raleway', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:50px;
+}
+fieldset {
+    border:2px solid black;
+    padding-top:30px;
+}
+legend {
+    font-size: 32px;
+    font-family: 'Berkshire Swash', cursive;
+    padding-bottom:10px;
 }
 
+.form-control {
+    padding-bottom: 5px;
+}
 .question {
     display: block;
     font-weight: bold;

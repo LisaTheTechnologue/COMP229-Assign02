@@ -128,11 +128,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Asset\headset.jpg" />
+    <Content Include="Asset\headset1.jpg" />
     <Content Include="Asset\music.jpg" />
     <Content Include="Asset\musicFinal.jpg" />
+    <Content Include="Asset\musicHeadset.jpg" />
     <Content Include="Asset\musicshop.jpg" />
     <Content Include="Asset\personalLogo.ico" />
-    <Content Include="Asset\screenlap1.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />

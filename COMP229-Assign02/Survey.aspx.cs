@@ -63,7 +63,8 @@ namespace COMP229_Assign02
         protected void SendData()
         {
             Session["Email"] = EmailTxtBox.Text;
-            Session["Password"] = PasswordTxtBox.Text;
+            Session["Order"] = OrderDateTxtBox.Text;
+            Session["Receive"] = ReceiveDateTxtBox.Text;
             Session["Birthday"] = BirthdayTxtBox.Text;
             Session["Recommend"] = RecommendDropList.SelectedValue;
             Session["Note"] = Note.Text;

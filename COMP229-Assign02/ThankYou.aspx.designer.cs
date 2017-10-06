@@ -31,13 +31,22 @@ namespace COMP229_Assign02 {
         protected global::System.Web.UI.WebControls.Label lblBirthday;
         
         /// <summary>
-        /// lblPassword control.
+        /// lblOrder control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPassword;
+        protected global::System.Web.UI.WebControls.Label lblOrder;
+        
+        /// <summary>
+        /// lblReceive control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblReceive;
         
         /// <summary>
         /// lblRecommend control.

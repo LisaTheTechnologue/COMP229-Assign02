@@ -13,7 +13,8 @@ namespace COMP229_Assign02
         {
             lblEmail.Text     = Session["Email"].ToString();
             lblBirthday.Text  = Session["Birthday"].ToString();
-            lblPassword.Text  = Session["Password"].ToString();
+            lblOrder.Text  = Session["Order"].ToString();
+            lblReceive.Text = Session["Receive"].ToString();
             lblRecommend.Text = Session["Recommend"].ToString();
             lblHeard.Text    = Session["HeardChoice"].ToString();
             lblReason.Text     = Session["Reason"].ToString();

@@ -8,11 +8,11 @@
 
 
             <h1 class="title">AW</h1>
-            <h3 class="subtile">Asian Wave</h3>
+            <h3 class="subtitle">Asian Wave</h3>
             <p class="lead">
                 How did we do? Give us some suggestion!
             </p>
-            <a href="~/Survey.aspx" class="btn btn-primary btn-lg">Feedback! </a>
+            <a href="Survey.aspx" class="btn btn-primary btn-lg">Feedback! </a>
 
 
         </div>
@@ -32,14 +32,16 @@
                 <li>You suggest an user interaction's idea</li>
                 <li>Or just want to support us?</li>
             </ul>
-            <p>
+            <p style="text-align:center;">
                 Let us know! Take the survey for 5 minutes only!
-            </p>
+            <br />
+            <a href="Survey.aspx" class="btn btn-primary btn-lg">Feedback! </a>
+                </p>
         </div>
-
-        <div id="privacy">
+        <br />
+        <div id="privacy" class="end">
             <p>We are using the Amazon Delivery System. Please understand the Disclaimer rules before taking the survey.</p>
-            <p><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496" class="btn btn-warning btn-lg">Disclaimer!</a></p>
+            <p><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496" class="btn btn-warning btn-sm">Disclaimer!</a></p>
         </div>
     </div>
 </asp:Content>

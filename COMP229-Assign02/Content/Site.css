@@ -63,21 +63,19 @@ body > .container, .body-content {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    color: white;
+    color:white;
 }
 
-#title-text > .title {
+.title {
     font-family: 'Lobster Two', cursive;
-    color: black;
+    text-align: center;
+    font-size: 63px;
 }
 
-#title-text > .subtitle {
+.subtitle, .lead {
     font-family: 'Righteous', cursive;
     color: black;
-}
-
-#title-text > .lead {
-    color: black;
+    text-align: center;
 }
 
 #content {
@@ -87,13 +85,12 @@ body > .container, .body-content {
 /*Survey*/
 .allPage {
     font-family: 'Raleway', sans-serif;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top:50px;
+    padding:30px;
 }
 fieldset {
-    border:2px solid black;
-    padding-top:30px;
+    border: 2px solid black;
+    padding: 30px;
+    margin-bottom: 50px;
 }
 legend {
     font-size: 32px;
@@ -116,4 +113,18 @@ legend {
 
 .radio, .checkbox {
     padding-left: 10px;
+}
+
+.end {
+    text-align:center;
+}
+#privacy {
+    font-size: 70%;
+}
+
+/*Thank you*/
+.header {
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size:180%;
 }

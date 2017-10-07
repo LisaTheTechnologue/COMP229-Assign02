@@ -53,9 +53,20 @@ namespace COMP229_Assign02
                 SendData();
 
             }
-            else
+
+        }
+        protected void Check(object sender, EventArgs e)
+        {
+            if (ReasonCheckList.SelectedItem.Text == "Other")
             {
-                Submit.Text = "Not Valid";
+                lblother.Text = "Please specific here: <br/>";
+                txtother.Attributes.Add("display", "inline-block");
+
+            }
+            if (HeardBtnList.SelectedItem.Text == "Other")
+            {
+                lblOtherchoice.Text = "Please specific here: <br/>";
+                otherchoice.Attributes.Add("display", "inline-block");
 
             }
         }
@@ -67,11 +78,17 @@ namespace COMP229_Assign02
             Session["Receive"] = ReceiveDateTxtBox.Text;
             Session["Birthday"] = BirthdayTxtBox.Text;
             Session["Recommend"] = RecommendDropList.SelectedValue;
-            Session["Note"] = Note.Text;
 
-            //ArrayList checkedList = new ArrayList(ReasonCheckList.Items);
-            //Session.Add("Reason", checkedList);
-            Session["HeardChoice"] = HeardBtnList.SelectedItem;
+
+            if (HeardBtnList.SelectedValue == "other")
+            {
+                Session["HeardChoice"] = txtother.Text;
+            }
+            else
+            {
+
+                Session["HeardChoice"] = HeardBtnList.SelectedItem;
+            }
 
             int count2 = ReasonCheckList.Items.Count;
             List<string> values2 = new List<string>();
@@ -79,11 +96,20 @@ namespace COMP229_Assign02
             {
                 if (ReasonCheckList.Items[i].Selected)
                 {
-                    values2.Add(ReasonCheckList.Items[i].Text);
+                    if (ReasonCheckList.Items[i].Text == "other")
+                    {
+                        values2.Add(otherchoice.Text);
+                    }
+                    else
+                    {
+                        values2.Add(ReasonCheckList.Items[i].Text);
+                    }
                 }
             }
             Session["Reason"] = string.Join("<br/>", values2.ToArray()); ;
 
+            if (Note.Text == "") { Session["Note"] = "You have no note"; }
+            else { Session["Note"] = Note.Text; }
             Response.Redirect("ThankYou.aspx");
         }
     }

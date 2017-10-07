@@ -31,6 +31,15 @@ namespace COMP229_Assign02 {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredEmail;
         
         /// <summary>
+        /// RegExpEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegExpEmail;
+        
+        /// <summary>
         /// BirthdayTxtBox control.
         /// </summary>
         /// <remarks>
@@ -49,6 +58,15 @@ namespace COMP229_Assign02 {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredBirthday;
         
         /// <summary>
+        /// ValidatorBirthday control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator ValidatorBirthday;
+        
+        /// <summary>
         /// OrderDateTxtBox control.
         /// </summary>
         /// <remarks>
@@ -65,6 +83,15 @@ namespace COMP229_Assign02 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredOrder;
+        
+        /// <summary>
+        /// RangeValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
         
         /// <summary>
         /// ReceiveDateTxtBox control.
@@ -112,6 +139,24 @@ namespace COMP229_Assign02 {
         protected global::System.Web.UI.WebControls.RadioButtonList HeardBtnList;
         
         /// <summary>
+        /// lblOtherchoice control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOtherchoice;
+        
+        /// <summary>
+        /// otherchoice control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox otherchoice;
+        
+        /// <summary>
         /// ReasonCheckList control.
         /// </summary>
         /// <remarks>
@@ -119,6 +164,24 @@ namespace COMP229_Assign02 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBoxList ReasonCheckList;
+        
+        /// <summary>
+        /// lblother control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblother;
+        
+        /// <summary>
+        /// txtother control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtother;
         
         /// <summary>
         /// ReqReason control.

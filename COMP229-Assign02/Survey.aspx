@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Survey.aspx.cs" Inherits="COMP229_Assign02.Survey" %>
+﻿<%@ Page Title="Survey" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Survey.aspx.cs" Inherits="COMP229_Assign02.Survey" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -11,7 +11,7 @@
             <legend>User Account:</legend>
             <div class="form-group">
                 <asp:Label runat="server" Text="Email:" />
-                <asp:TextBox ID="EmailTxtBox" runat="server" TextMode="SingleLine" CssClass="form-control" />
+                <asp:TextBox ID="EmailTxtBox" runat="server" placeholder="example@domain.com" TextMode="SingleLine" CssClass="form-control" />
                 <asp:RequiredFieldValidator ID="RequiredEmail" ForeColor="Red" ControlToValidate="EmailTxtBox"
                     runat="server" ErrorMessage="Email is required" Display="Dynamic" />
                 <asp:RegularExpressionValidator ID="RegExpEmail" runat="server"
@@ -117,7 +117,7 @@
             <br />
             <div class="form-group">
                 <asp:Label runat="server" CssClass="question" Text="4. What is the #1 thing we can do to make your next Pickup Point experience even better? (optional): " />
-                <asp:TextBox ID="Note" runat="server" TextMode="SingleLine" CssClass="form-control" />
+                <asp:TextBox ID="Note" runat="server" placeholder="Recommend!" TextMode="SingleLine" CssClass="form-control" />
             </div>
             <br />
         </fieldset>

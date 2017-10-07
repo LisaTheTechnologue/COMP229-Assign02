@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title><%: Page.Title %> - Jolisa's</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -16,7 +16,7 @@
     <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <!--Google Font-->
-    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Handlee|Pacifico|Lobster+Two:700|Nunito|Raleway|Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Amatic+SC:700|Handlee|Pacifico|Lobster+Two:700|Nunito|Raleway|Righteous" rel="stylesheet">
 </head>
 <body>
     <form runat="server">
@@ -67,7 +67,7 @@
         </nav>
 
         <div class="container body-content">
-
+            <asp:Label runat="server" ID="pageTitle"></asp:Label>
             <asp:ContentPlaceHolder ID="SpecialEdition" runat="server">
             </asp:ContentPlaceHolder>
 

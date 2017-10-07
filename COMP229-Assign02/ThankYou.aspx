@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ThankYou.aspx.cs" Inherits="COMP229_Assign02.ThankYou" %>
+﻿<%@ Page Title="Thank You" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ThankYou.aspx.cs" Inherits="COMP229_Assign02.ThankYou" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="allPage">
@@ -8,46 +8,48 @@
         <div class="row">
             <div class="col-sm-6">
                 <h4 class="header">Thank you</h4>
-                <p>
+                <p style="padding: 20px;">
                     Thank you for taking our service and spending time to take this survey. 
                 We have receive your feedback and will try our best to create a better platform.
                 <br />
                     Sincerely,
                 <br />
-                    <span style="font-family: 'Handlee', cursive;">Jolisa</span>
+                    <span style="font-family: 'Handlee', cursive; padding-left: 30px;">Jolisa</span>
                     <br />
                     Customer Service Team
                 </p>
-                <p>
+                <p style="text-align: center;">
+                    <a class="btn btn-info" href="http://monvie.000webhostapp.com">My page</a>
                 </p>
             </div>
             <div class="col-sm-6 " style="clear: right;">
                 <h4 class="header">Survey Info</h4>
+                <div style="padding: 20px;">
+                    <asp:Label runat="server" CssClass="question" Text="Email: "></asp:Label>
+                    <asp:Label ID="lblEmail" runat="server" />
+                    <br />
+                    <asp:Label runat="server" CssClass="question" Text="Birthday: "></asp:Label>
+                    <asp:Label ID="lblBirthday" runat="server" />
+                    <br />
+                    <asp:Label runat="server" CssClass="question" Text="Order Date: "></asp:Label>
+                    <asp:Label ID="lblOrder" runat="server" />
+                    <br />
+                    <asp:Label runat="server" CssClass="question" Text="Receive Date: "></asp:Label>
+                    <asp:Label ID="lblReceive" runat="server" />
+                    <br />
 
-                <asp:Label runat="server" CssClass="question" Text="Email: "></asp:Label>
-                <asp:Label ID="lblEmail" runat="server" />
-                <br />
-                <asp:Label runat="server" CssClass="question" Text="Birthday: "></asp:Label>
-                <asp:Label ID="lblBirthday" runat="server" />
-                <br />
-                <asp:Label runat="server" CssClass="question" Text="Order Date: "></asp:Label>
-                <asp:Label ID="lblOrder" runat="server" />
-                <br />
-                <asp:Label runat="server" CssClass="question" Text="Receive Date: "></asp:Label>
-                <asp:Label ID="lblReceive" runat="server" />
-                <br />
-
-                <asp:Label runat="server" CssClass="question" Text="Level of Recommend"></asp:Label>
-                <asp:Label ID="lblRecommend" runat="server" />
-                <br />
-                <asp:Label runat="server" CssClass="question" Text="Reason choosing delivery: "></asp:Label>
-                <asp:Label ID="lblReason" runat="server" />
-                <br />
-                <asp:Label runat="server" CssClass="question" Text="Heard about us from: "></asp:Label>
-                <asp:Label ID="lblHeard" runat="server" />
-                <br />
-                <asp:Label runat="server" CssClass="question" Text="Your note: "></asp:Label>
-                <asp:Label ID="lblNote" runat="server" />
+                    <asp:Label runat="server" CssClass="question" Text="Level of Recommend"></asp:Label>
+                    <asp:Label ID="lblRecommend" runat="server" />
+                    <br />
+                    <asp:Label runat="server" CssClass="question" Text="Reason choosing delivery: "></asp:Label>
+                    <asp:Label ID="lblReason" runat="server" />
+                    <br />
+                    <asp:Label runat="server" CssClass="question" Text="Heard about us from: "></asp:Label>
+                    <asp:Label ID="lblHeard" runat="server" />
+                    <br />
+                    <asp:Label runat="server" CssClass="question" Text="Your note: "></asp:Label>
+                    <asp:Label ID="lblNote" runat="server" />
+                </div>
             </div>
         </div>
 
